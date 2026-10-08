@@ -1,0 +1,102 @@
+# ☁️ Microsoft Azure Cloud Computing Project
+
+## 👨‍💻 Author
+
+**Vasanth**
+
+---
+
+## 📌 Project Overview
+
+This project demonstrates the implementation and deployment of different
+Microsoft Azure cloud computing services. The project explores Azure
+Virtual Machines, Azure CLI/Cloud Shell, Azure Container Instances, and
+Azure Blob Storage for hosting web content.
+
+The main objective is to understand how cloud infrastructure and services
+can be created, configured, accessed, and deployed using Microsoft Azure.
+
+---
+
+## 🎯 Objectives
+
+- Understand the fundamentals of Microsoft Azure.
+- Create and manage Azure cloud resources.
+- Access Azure resources using Azure CLI and Cloud Shell.
+- Connect to an Azure Virtual Machine using SSH.
+- Deploy applications using Azure Container Instances.
+- Store and host web files using Azure Blob Storage.
+- Understand basic cloud deployment and hosting workflows.
+
+---
+
+## 🛠️ Technologies & Services Used
+
+- **Microsoft Azure**
+- **Azure Portal**
+- **Azure Cloud Shell**
+- **Azure CLI**
+- **Azure Virtual Machine**
+- **SSH**
+- **Azure Container Instances**
+- **Azure Blob Storage**
+- **HTML / Web Hosting**
+- **GitHub**
+
+---
+
+## ☁️ Azure Services Implemented
+
+### 1. Azure Virtual Machine
+
+An Azure Virtual Machine was created and accessed through the Azure
+environment. SSH was used to establish a connection with the virtual
+machine and interact with the cloud-based system.
+
+### 2. Azure CLI / Cloud Shell
+
+Azure Cloud Shell was used to execute cloud management commands and
+interact with Azure resources through the command line.
+
+### 3. Azure Container Instances
+
+An application/container was deployed using **Azure Container Instances
+(ACI)**. The deployed container was accessed through its public endpoint,
+demonstrating container-based application deployment in Azure.
+
+### 4. Azure Blob Storage
+
+Azure Blob Storage was used to store web-related files and make them
+accessible through Azure storage.
+
+A static website was hosted using Azure Blob Storage, demonstrating how
+cloud storage can be used for web hosting.
+
+---
+
+## 🔄 Project Workflow
+
+```text
+                    Microsoft Azure
+                           │
+                           ▼
+                  ┌─────────────────┐
+                  │   Azure Portal  │
+                  └────────┬────────┘
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+     Virtual Machine   Cloud Shell      Storage Account
+          │             + Azure CLI            │
+          ▼                                     ▼
+         SSH                              Blob Storage
+          │                                     │
+          ▼                                     ▼
+    Cloud Access                       Static Website
+                           
+                           │
+                           ▼
+                 Container Instances
+                           │
+                           ▼
+                  Application Deployment
